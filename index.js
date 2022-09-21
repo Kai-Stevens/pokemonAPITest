@@ -16,7 +16,7 @@ const fetchPokemon = async (pokemonIndex) => {
 
 const changeTitle = (pokemonData) => {
   const pokemonTitle = document.querySelector("#pokemonName");
-  pokemonTitle.textContent = pokemonData.name[0].toUpperCase() + pokemonData.name.substring(1);
+  pokemonTitle.textContent = pokemonData.name[0].toUpperCase() + pokemonData.name.substring(1) + "Hello Friends";
 }
 
 const changeImages = (pokemonData) => {
